@@ -21,11 +21,11 @@ function ext(){
   }
 
 chrome.runtime.onStartup.addListener(() => {
-    //ext()
+    ext()
   });
 
 chrome.runtime.onInstalled.addListener(() => {
-    //ext()
+    ext()
   });
 
 chrome.action.onClicked.addListener((tab) => {
