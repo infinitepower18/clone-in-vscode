@@ -1,1 +1,1 @@
-# CloneInVSCode
+# Clone in VS Code
