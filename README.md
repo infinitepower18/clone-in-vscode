@@ -32,4 +32,4 @@ A browser extension to clone any GitHub or GitLab repository right in Visual Stu
 
 ### Opera
 
-[![image](https://user-images.githubusercontent.com/44692189/185097337-f6ab6430-b270-4d67-9ca0-bfb523d79a92.png)](https://addons.opera.com/en-gb/extensions/details/clone-in-visual-studio-code/)
+[![image](https://user-images.githubusercontent.com/44692189/185097337-f6ab6430-b270-4d67-9ca0-bfb523d79a92.png)](https://addons.opera.com/en-gb/extensions/details/clone-in-vs-code/)
