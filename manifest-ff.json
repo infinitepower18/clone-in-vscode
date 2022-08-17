@@ -9,8 +9,6 @@
     "author": "infinitepower18",
     "homepage_url": "https://github.com/infinitepower18/CloneInVSCode",
     "permissions": [
-    "https://github.com/",
-    "https://gitlab.com/",
     "tabs"
     ],
     "browser_action": {
