@@ -20,7 +20,7 @@ All you need is Visual Studio Code installed on your system for this extension t
 
 ### Microsoft Edge
 
-[![image](https://user-images.githubusercontent.com/44692189/184991371-ef2061ed-02ac-4837-8764-a2f6a3fb73c4.png)](https://microsoftedge.microsoft.com/addons/detail/idolkdgdllilclecodkncimdbmmclmje)
+[![image](./badges/Edge.svg)](https://microsoftedge.microsoft.com/addons/detail/idolkdgdllilclecodkncimdbmmclmje)
 
 ### Mozilla Firefox
 
