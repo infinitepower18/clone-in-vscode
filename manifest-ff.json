@@ -1,0 +1,26 @@
+{
+    "name": "Clone in VS Code",
+    "description": "Clone any GitHub or GitLab repository in Visual Studio Code",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "icons": { "16": "icons/16.png",
+           "48": "icons/48.png",
+          "128": "icons/128.png" },
+    "author": "infinitepower18",
+    "homepage_url": "https://github.com/infinitepower18/CloneInVSCode",
+    "permissions": [
+    "https://github.com/",
+    "https://gitlab.com/",
+    "tabs"
+    ],
+    "browser_action": {
+        "default_icon": {
+          "16": "icons/16.png",
+          "32": "icons/32.png"
+        }
+      },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    }
+  }
