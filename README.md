@@ -18,7 +18,7 @@ A browser extension to clone any GitHub or GitLab repository right in Visual Stu
 
 ### Mozilla Firefox
 
-Coming soon
+[![image](https://user-images.githubusercontent.com/44692189/185073795-4624fbba-5e43-4f0f-8d41-99ede6fba054.png)](https://addons.mozilla.org/en-US/firefox/addon/clone-in-vs-code/)
 
 ### Safari
 
