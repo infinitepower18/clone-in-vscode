@@ -10,8 +10,6 @@ All you need is Visual Studio Code installed on your system for this extension t
 
 ## Download
 
-**Download links will not work until extension is approved**
-
 ### Chrome, Vivaldi and Brave
 
 [![image](https://user-images.githubusercontent.com/44692189/184990816-0e709ef1-d0d7-4539-b168-ef1880a62295.png)](https://chrome.google.com/webstore/detail/bafggjdhleamglhfhbilngjelbnfblof/)
