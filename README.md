@@ -1,5 +1,3 @@
-![Chrome Web Store](https://img.shields.io/chrome-web-store/v/bafggjdhleamglhfhbilngjelbnfblof)
-![Mozilla Add-on](https://img.shields.io/amo/v/clone-in-vs-code)
 ![GitHub](https://img.shields.io/github/license/infinitepower18/CloneInVSCode)
 
 # Clone in Visual Studio Code
