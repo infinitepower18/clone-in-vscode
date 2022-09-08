@@ -4,7 +4,7 @@ function save_options() {
       protocol: protocol
     }, function() {
       var status = document.getElementById('status');
-      status.textContent = 'Options saved.';
+      status.textContent = 'Option saved.';
       setTimeout(function() {
       status.textContent = '';
     }, 3000);
