@@ -10,6 +10,9 @@ function ext(){
           }),
           new chrome.declarativeContent.PageStateMatcher({
             pageUrl: {hostEquals: 'gitlab.com'},
+          }),
+          new chrome.declarativeContent.PageStateMatcher({
+            pageUrl: {hostEquals: 'bitbucket.org'},
           })
         ],
         actions: [new chrome.declarativeContent.ShowAction()],
