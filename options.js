@@ -5,6 +5,9 @@ function save_options() {
     }, function() {
       var status = document.getElementById('status');
       status.textContent = 'Options saved.';
+      setTimeout(function() {
+      status.textContent = '';
+    }, 3000);
     });
   }
   
