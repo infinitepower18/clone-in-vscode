@@ -8,13 +8,12 @@ function save_options() {
     });
   }
   
-  function restore_options() {
-    chrome.storage.sync.get({
-      protocol: 'HTTPS'
-    }, function(items) {
-      document.getElementById('protocol').value = items.protocol;
-    });
-  }
-  document.addEventListener('DOMContentLoaded', restore_options);
-  document.getElementById('save').addEventListener('click',
-      save_options);
+function restore_options() {
+  chrome.storage.sync.get({
+    protocol: 'HTTPS'
+  }, function(items) {
+    document.getElementById('protocol').value = items.protocol;
+  });
+}
+document.addEventListener('DOMContentLoaded', restore_options);
+document.getElementById('save').addEventListener('click', save_options);
