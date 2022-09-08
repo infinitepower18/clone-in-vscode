@@ -2,9 +2,9 @@
 
 # Clone in Visual Studio Code
 
-A browser extension to clone any GitHub or GitLab repository right in Visual Studio Code with just one click.
+A browser extension to clone any GitHub, GitLab or Bitbucket repository right in Visual Studio Code with just one click.
 
-All you need is Visual Studio Code installed on your system for this extension to work. Then just click the extension on any GitHub/GitLab repo and it will open VS Code where it will take you through the rest of the cloning process.
+All you need is Visual Studio Code installed on your system for this extension to work. Then just click the extension on any GitHub, GitLab or Bitbucket repo and it will open VS Code where it will take you through the rest of the cloning process.
 
 [Privacy Policy](https://ahnafmahmud.me/apps/CloneInVSCode/PrivacyPolicy.html)
 
