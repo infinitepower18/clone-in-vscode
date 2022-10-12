@@ -6,7 +6,7 @@ A browser extension to clone any GitHub, GitLab or Bitbucket repository right in
 
 All you need is Visual Studio Code installed on your system for this extension to work. Then just click the extension on any GitHub, GitLab or Bitbucket repo and it will open VS Code where it will take you through the rest of the cloning process.
 
-If you use the Insiders version of VS Code, or prefer to use VSCodium or VSCodium Insiders instead of VS Code, you can change which application the extension opens via the options page.
+If you use the Insiders version of VS Code, or prefer to use VSCodium/VSCodium Insiders instead of VS Code, you can change which application the extension opens via the options page.
 
 [Privacy Policy](https://ahnafmahmud.me/apps/CloneInVSCode/PrivacyPolicy.html)
 
