@@ -41,20 +41,21 @@ browser.browserAction.onClicked.addListener((tab) => {
       chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
         const url = new URL(tabs[0].url);
         const path = url.pathname.split("/");
-        if(items.application == "VS Code"){
+        if (items.application == "VS Code") {
           openApp = "vscode";
-        } else if (items.application == "VS Code Insiders"){
+        } else if (items.application == "VS Code Insiders") {
           openApp = "vscode-insiders";
-        } else if (items.application == "VSCodium"){
+        } else if (items.application == "VSCodium") {
           openApp = "vscodium";
-        } else if (items.application == "VSCodium Insiders"){
+        } else if (items.application == "VSCodium Insiders") {
           openApp = "vscodium-insiders";
         }
         if (path[1] !== undefined && path[2] !== undefined) {
           if (items.protocol == "HTTPS") {
             chrome.tabs.create({
               url:
-                openApp + "://vscode.git/clone?url=https://" +
+                openApp +
+                "://vscode.git/clone?url=https://" +
                 url.hostname +
                 "/" +
                 path[1] +
@@ -65,7 +66,8 @@ browser.browserAction.onClicked.addListener((tab) => {
           } else if (items.protocol == "SSH") {
             chrome.tabs.create({
               url:
-                openApp + "://vscode.git/clone?url=git@" +
+                openApp +
+                "://vscode.git/clone?url=git@" +
                 url.hostname +
                 ":" +
                 path[1] +
