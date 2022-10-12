@@ -46,6 +46,8 @@ chrome.action.onClicked.addListener((tab) => {
           openApp = "vscode-insiders";
         } else if (items.application == "VSCodium"){
           openApp = "vscodium";
+        } else if (items.application == "VSCodium Insiders"){
+          openApp = "vscodium-insiders";
         }
         if (path[1] !== undefined && path[2] !== undefined) {
           if (items.protocol == "HTTPS") {
