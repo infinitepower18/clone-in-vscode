@@ -2,24 +2,32 @@
 <html>
   <head>
     <title>Clone in VS Code Options</title>
+    <style>
+      div {
+        margin-top: 10px;
+      }
+    </style>
   </head>
   <body>
-    Protocol:
-    <select id="protocol">
-      <option value="HTTPS">HTTPS</option>
-      <option value="SSH">SSH</option>
-    </select>
-    <br /><br />
-    Open in:
-    <select id="application">
-      <option value="VS Code">VS Code</option>
-      <option value="VS Code Insiders">VS Code Insiders</option>
-      <option value="VSCodium">VSCodium</option>
-      <option value="VSCodium Insiders">VSCodium Insiders</option>
-    </select>
-    <br /><br />
-    <button id="save">Save</button>
-    <br /><br />
+    <div>
+      Protocol:
+      <select id="protocol">
+        <option value="HTTPS">HTTPS</option>
+        <option value="SSH">SSH</option>
+      </select>
+    </div>
+    <div>
+      Open in:
+      <select id="application">
+        <option value="VS Code">VS Code</option>
+        <option value="VS Code Insiders">VS Code Insiders</option>
+        <option value="VSCodium">VSCodium</option>
+        <option value="VSCodium Insiders">VSCodium Insiders</option>
+      </select>
+    </div>
+    <div>
+      <button id="save">Save</button>
+    </div>
     <div id="status"></div>
 
     <script src="options.js"></script>
