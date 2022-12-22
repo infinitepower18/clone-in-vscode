@@ -1,8 +1,8 @@
 {
   "name": "Clone in VS Code",
   "description": "Clone any GitHub, GitLab or Bitbucket repository in Visual Studio Code",
-  "version": "1.2.1",
-  "manifest_version": 3,
+  "version": "1.2.0",
+  "manifest_version": 2,
   "icons": {
     "16": "icons/16.png",
     "48": "icons/48.png",
@@ -20,13 +20,14 @@
       "id": "{323a4b8a-6075-4094-8052-b73b01ab027a}"
     }
   },
-  "action": {
+  "browser_action": {
     "default_icon": {
       "16": "icons/16.png",
       "32": "icons/32.png"
     }
   },
   "background": {
-    "scripts": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
   }
 }
