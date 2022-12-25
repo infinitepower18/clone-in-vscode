@@ -1,7 +1,7 @@
 {
   "name": "Clone in VS Code",
   "description": "Clone any GitHub, GitLab or Bitbucket repository in Visual Studio Code",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "manifest_version": 3,
   "icons": {
     "16": "icons/16.png",
@@ -13,7 +13,7 @@
     "page": "options.html",
     "open_in_tab": false
   },
-  "author": "infinitepower18",
+  "author": "Ahnaf Mahmud",
   "homepage_url": "https://github.com/infinitepower18/clone-in-vscode",
   "permissions": ["declarativeContent", "storage"],
   "background": {
