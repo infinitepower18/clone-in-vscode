@@ -10,6 +10,8 @@ If you use the Insiders version of VS Code, or prefer to use VSCodium/VSCodium I
 
 [Privacy Policy](https://ahnafmahmud.me/apps/CloneInVSCode/PrivacyPolicy.html)
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1K06VY)
+
 ## Download
 
 ### Chrome, Vivaldi, Brave and Arc
