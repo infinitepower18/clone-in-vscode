@@ -14,7 +14,7 @@ If you use the Insiders version of VS Code, or prefer to use VSCodium/VSCodium I
 
 ## Download
 
-### Chrome, Vivaldi, Brave and Arc
+### Chrome, Vivaldi, Brave, Opera and Arc
 
 [![image](https://user-images.githubusercontent.com/44692189/184990816-0e709ef1-d0d7-4539-b168-ef1880a62295.png)](https://chrome.google.com/webstore/detail/bafggjdhleamglhfhbilngjelbnfblof/)
 
@@ -31,7 +31,3 @@ If you use the Insiders version of VS Code, or prefer to use VSCodium/VSCodium I
 [![image](./badges/MacAppStore.svg)](https://apps.apple.com/us/app/clone-in-vs-code/id1640113540)
 
 [Click here](https://github.com/infinitepower18/CloneInVSCode-Safari) for the source code of the Safari port.
-
-### Opera
-
-[![image](https://user-images.githubusercontent.com/44692189/185097337-f6ab6430-b270-4d67-9ca0-bfb523d79a92.png)](https://addons.opera.com/en-gb/extensions/details/clone-in-vs-code/)
