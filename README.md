@@ -28,6 +28,6 @@ If you use the Insiders version of VS Code, or prefer to use VSCodium/VSCodium I
 
 ### Safari
 
-[![image](./badges/MacAppStore.svg)](https://apps.apple.com/us/app/clone-in-vs-code/id1640113540)
+[![image](https://ahnafmahmud.com/files/badges/MacAppStore.svg)](https://apps.apple.com/us/app/clone-in-vs-code/id1640113540)
 
 [Click here](https://github.com/infinitepower18/CloneInVSCode-Safari) for the source code of the Safari port.
