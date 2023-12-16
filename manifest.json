@@ -1,7 +1,7 @@
 {
   "name": "Clone in VS Code",
   "description": "Clone any GitHub, GitLab or Bitbucket repository in Visual Studio Code",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "manifest_version": 3,
   "icons": {
     "16": "icons/16.png",
