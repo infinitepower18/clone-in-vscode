@@ -4,9 +4,9 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
     tab.url.match(/^https:\/\/gitlab.com\/.*/) ||
     tab.url.match(/^https:\/\/bitbucket.org\/.*/)
   ) {
-    browser.browserAction.enable(tabId);
+    chrome.action.enable(tabId);
   } else {
-    browser.browserAction.disable(tabId);
+    chrome.action.disable(tabId);
   }
 });
 
@@ -17,21 +17,21 @@ chrome.tabs.onCreated.addListener(function (tab) {
       tab.url.match(/^https:\/\/gitlab.com\/.*/) ||
       tab.url.match(/^https:\/\/bitbucket.org\/.*/))
   ) {
-    browser.browserAction.enable(tabId);
+    chrome.action.enable(tabId);
   } else if (tab.url) {
-    browser.browserAction.disable(tabId);
+    chrome.action.disable(tabId);
   }
 });
 
 chrome.runtime.onStartup.addListener(() => {
-  browser.browserAction.disable();
+  chrome.action.disable();
 });
 
 chrome.runtime.onInstalled.addListener(() => {
-  browser.browserAction.disable();
+  chrome.action.disable();
 });
 
-browser.browserAction.onClicked.addListener((tab) => {
+chrome.action.onClicked.addListener((tab) => {
   chrome.storage.sync.get(
     {
       protocol: "HTTPS",
