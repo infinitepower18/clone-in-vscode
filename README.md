@@ -8,8 +8,6 @@ All you need is Visual Studio Code installed on your system for this extension t
 
 If you use the Insiders version of VS Code, or prefer to use VSCodium/VSCodium Insiders instead of VS Code, you can change which application the extension opens via the options page.
 
-[Privacy Policy](https://ahnafmahmud.com/apps/CloneInVSCode/PrivacyPolicy.html)
-
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1K06VY)
 
 ## Download
