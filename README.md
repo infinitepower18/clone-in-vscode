@@ -14,7 +14,7 @@ If you use the Insiders version of VS Code, or prefer to use VSCodium/VSCodium I
 
 ### Chrome, Vivaldi, Brave, Opera and Arc
 
-[![image](https://user-images.githubusercontent.com/44692189/184990816-0e709ef1-d0d7-4539-b168-ef1880a62295.png)](https://chrome.google.com/webstore/detail/bafggjdhleamglhfhbilngjelbnfblof/)
+[![image](https://user-images.githubusercontent.com/44692189/184990816-0e709ef1-d0d7-4539-b168-ef1880a62295.png)](https://chromewebstore.google.com/detail/clone-in-vs-code/bafggjdhleamglhfhbilngjelbnfblof)
 
 ### Microsoft Edge
 
