@@ -35,6 +35,7 @@ chrome.action.onClicked.addListener((tab) => {
     {
       protocol: "HTTPS",
       application: "VS Code",
+      urlScheme: "",
     },
     function (items) {
       chrome.tabs.query({ active: true, lastFocusedWindow: true }, (tabs) => {
@@ -48,6 +49,10 @@ chrome.action.onClicked.addListener((tab) => {
           openApp = "vscodium";
         } else if (items.application == "VSCodium Insiders") {
           openApp = "vscodium-insiders";
+        } else if (items.application == "Cursor") {
+          openApp = "cursor";
+        } else if (items.application == "Other") {
+          openApp = items.urlScheme;
         }
         if (path[1] !== undefined && path[2] !== undefined) {
           if (items.protocol == "HTTPS") {
