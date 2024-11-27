@@ -30,6 +30,7 @@ function restore_options() {
     function (items) {
       document.getElementById("protocol").value = items.protocol;
       document.getElementById("application").value = items.application;
+      document.getElementById("url-scheme").value = items.urlScheme;
       url_container_visibility()
     }
   );
