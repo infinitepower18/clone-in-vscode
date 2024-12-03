@@ -52,6 +52,8 @@ chrome.action.onClicked.addListener((tab) => {
           openApp = "vscodium-insiders";
         } else if (items.application == "Cursor") {
           openApp = "cursor";
+        } else if (items.application == "Windsurf") {
+          openApp = "windsurf";
         } else if (items.application == "Other") {
           openApp = items.urlScheme;
         }
