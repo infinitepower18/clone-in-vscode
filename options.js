@@ -1,4 +1,6 @@
 const applicationDropdown = document.getElementById("application");
+const urlSchemeInput = document.getElementById("url-scheme");
+const saveButton = document.getElementById("save");
 
 function save_options() {
   var protocol = document.getElementById("protocol").value;
@@ -31,23 +33,34 @@ function restore_options() {
       document.getElementById("protocol").value = items.protocol;
       document.getElementById("application").value = items.application;
       document.getElementById("url-scheme").value = items.urlScheme;
-      url_container_visibility()
+      url_container_visibility();
+      checkSaveButton();
     }
   );
 }
 
 function url_container_visibility() {
   const urlContainer = document.getElementById("url-container");
-  const urlInput = document.getElementById("url-scheme");
 
   if (applicationDropdown.value === "Other") {
     urlContainer.style.display = "block";
   } else {
     urlContainer.style.display = "none";
-    urlInput.value = "";
+    urlSchemeInput.value = "";
+  }
+  checkSaveButton();
+}
+
+function checkSaveButton() {
+  if (applicationDropdown.value === "Other" && urlSchemeInput.value.trim() === "") {
+    saveButton.disabled = true;
+  } else {
+    saveButton.disabled = false;
   }
 }
 
+// Event listeners
 document.addEventListener("DOMContentLoaded", restore_options);
 document.getElementById("save").addEventListener("click", save_options);
-applicationDropdown.addEventListener("change", url_container_visibility)
+applicationDropdown.addEventListener("change", url_container_visibility);
+urlSchemeInput.addEventListener("input", checkSaveButton);
