@@ -6,7 +6,7 @@ A browser extension to clone any GitHub, GitLab or Bitbucket repository in Visua
 
 All you need is Visual Studio Code installed on your system for this extension to work. Then just click the extension on any GitHub, GitLab or Bitbucket repo and it will open VS Code where it will take you through the rest of the cloning process.
 
-The extension also supports other variations of VS Code just as VSCodium and Cursor. You can change which application the extension opens via the options page.
+The extension also supports other variations of VS Code such as VSCodium and Cursor. You can change which application the extension opens via the options page.
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1K06VY)
 
