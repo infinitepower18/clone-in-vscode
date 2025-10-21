@@ -12,7 +12,7 @@ The extension also supports other variations of VS Code such as VSCodium and Cur
 
 ## Download
 
-### Chrome, Vivaldi, Brave, Opera and Arc
+### Chrome, Vivaldi, Brave, Opera and ChatGPT Atlas
 
 [![image](https://user-images.githubusercontent.com/44692189/184990816-0e709ef1-d0d7-4539-b168-ef1880a62295.png)](https://chromewebstore.google.com/detail/clone-in-vs-code/bafggjdhleamglhfhbilngjelbnfblof)
 
