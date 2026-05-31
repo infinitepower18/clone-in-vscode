@@ -53,6 +53,8 @@ chrome.action.onClicked.addListener((tab) => {
           openApp = "cursor";
         } else if (items.application == "Windsurf") {
           openApp = "windsurf";
+        } else if (items.application == "Antigravity IDE") {
+          openApp = "antigravity-ide";
         } else if (items.application == "Other") {
           openApp = items.urlScheme;
         }
